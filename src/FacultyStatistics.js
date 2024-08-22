@@ -10,7 +10,7 @@ const FacultyStatistics = () => {
           <input type="text" id="faculty-name" placeholder="Type here..." />
         </div>
         <div className="form-group">
-          <label htmlFor="statement-title">PROBLEM STATEMENT TITLE *</label>
+          <label htmlFor="statement-title">PROBLEM STATEMENT*</label>
           <input type="text" id="statement-title" placeholder="Type here..." />
         </div>
         <div className="form-group">
