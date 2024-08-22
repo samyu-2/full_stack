@@ -1,0 +1,66 @@
+.faculty-statistics-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px;
+    background-color: #f5f2fc;
+    height: calc(100vh - 100px);
+    width: 100vh;
+ }
+  
+  .faculty-form {
+    background-color: #f5f2fc;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 50%;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 8px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  .submit-button {
+    background-color: #8f63e6;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    margin-top: 20px;
+  }
+  
+  .submit-button:hover {
+    background-color: #7b52cb;
+  }
+  
+  .search-bar {
+    margin-top: 15px;
+    width:30%;
+  }
+  
+  .search-bar input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
