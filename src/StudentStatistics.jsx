@@ -1,7 +1,17 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import './StudentStatistics.css';
 
 const StudentStatistics = () => {
+  const navigate = useNavigate(); // Hook for navigation
+
+  const handleSubmit = () => {
+    // Perform any logic here if needed (e.g., form validation, API calls)
+    
+    // Redirect to the desired page
+    navigate('/StudentStat');
+  };
+
   return (
     <>
       <div className="student-statistics-container">
@@ -18,7 +28,9 @@ const StudentStatistics = () => {
             <label htmlFor="department">DEPARTMENT *</label>
             <input type="text" id="department" placeholder="Type here..." />
           </div>
-          <button className="submit-button">SUBMIT</button>
+          <button className="submit-button" onClick={handleSubmit}>
+            SUBMIT
+          </button>
         </div>
       </div>
       <div className="search-bar">

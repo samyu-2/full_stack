@@ -8,10 +8,10 @@ const FacultyStatistics = () => {
         <div className="faculty-form">
           <div className="form-group">
             <label htmlFor="faculty-name">FACULTY NAME *</label>
-            <input type="text" id="faculty-name" placeholder="Type here..." />
+            <input type="select" id="faculty-name" placeholder="Type here..." />
           </div>
           <div className="form-group">
-            <label htmlFor="statement-title">PROBLEM STATEMENT*</label>
+            <label htmlFor="statement-title">PROBLEM STATEMENT TITLE:</label>
             <input type="text" id="statement-title" placeholder="Type here..." />
           </div>
           <div className="form-group">

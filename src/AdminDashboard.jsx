@@ -3,7 +3,7 @@ import { Link, Route, Routes } from 'react-router-dom';
 import './AdminDashboard.css'; 
 import FacultyStatistics from './FacultyStatistics'; 
 import StudentStatistics from './StudentStatistics';
-// Import other components as needed
+import RegisterPS from './RegisterPS';
 
 const AdminDashboard = () => {
   return (
@@ -32,7 +32,7 @@ const AdminDashboard = () => {
           <Routes>
             <Route path="faculty-statistics" element={<FacultyStatistics />} />
             <Route path="student-statistics" element={<StudentStatistics/>} />
-            {/* Add other nested routes as needed */}
+            <Route path="register-ps" element={<RegisterPS/>} />
           </Routes>
         </div>
       </div>
