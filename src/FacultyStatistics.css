@@ -1,66 +1,72 @@
 .faculty-statistics-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 40px;
-    background-color: #f5f2fc;
-    height: calc(100vh - 100px);
-    width: 100vh;
- }
-  
-  .faculty-form {
-    background-color: #f5f2fc;
-    padding: 30px;
-    border-radius: 15px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-    width: 50%;
-  }
-  
-  .form-group {
-    margin-bottom: 20px;
-  }
-  
-  .form-group label {
-    display: block;
-    font-size: 16px;
-    color: #333;
-    margin-bottom: 8px;
-  }
-  
-  .form-group input {
-    width: 100%;
-    padding: 12px;
-    border-radius: 8px;
-    border: 1px solid #ccc;
-    font-size: 16px;
-  }
-  
-  .submit-button {
-    background-color: #8f63e6;
-    color: white;
-    border: none;
-    padding: 12px 20px;
-    border-radius: 8px;
-    font-size: 16px;
-    cursor: pointer;
-    display: block;
-    margin-top: 20px;
-  }
-  
-  .submit-button:hover {
-    background-color: #7b52cb;
-  }
-  
-  .search-bar {
-    margin-top: 15px;
-    width:30%;
-  }
-  
-  .search-bar input {
-    width: 100%;
-    padding: 12px;
-    border-radius: 8px;
-    border: 1px solid #ccc;
-    font-size: 16px;
-  }
-  
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 40px;
+  height: 100vh;
+  width: 100vh;
+  border-radius: 15px;
+  margin-top: 25px;
+}
+
+.faculty-form {
+  background-color: #e9e1f9;
+  padding: 60px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  display: flex; 
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-size: 16px;
+  color: #333;
+  margin-right: 40px; /* Space between label and input */
+  white-space: nowrap; /* Prevent label from wrapping to the next line */
+}
+
+.form-group input {
+  flex-grow: 1; /* Allow input to take up remaining space */
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.submit-button {
+  background-color: #8f63e6;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 20px !important;
+  font-size: 16px;
+  cursor: pointer;
+  align-self: flex-end; /* Align the submit button to the right */
+  margin-top: 20px;
+}
+
+.submit-button:hover {
+  background-color: #7b52cb;
+}
+
+.search-bar {
+  position: absolute;
+  top: 180px;
+  right: 120px;
+  width: 300px !important;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 30px !important;
+  font-size: 16px;
+}
