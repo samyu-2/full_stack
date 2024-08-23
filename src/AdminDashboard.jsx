@@ -4,6 +4,8 @@ import './AdminDashboard.css';
 import FacultyStatistics from './FacultyStatistics'; 
 import StudentStatistics from './StudentStatistics';
 import RegisterPS from './RegisterPS';
+import Studentstat from './Studentstat';
+import Facultystat from './Facultystat';
 
 const AdminDashboard = () => {
   return (
@@ -31,8 +33,10 @@ const AdminDashboard = () => {
         <div className="admin-content">
           <Routes>
             <Route path="faculty-statistics" element={<FacultyStatistics />} />
-            <Route path="student-statistics" element={<StudentStatistics/>} />
-            <Route path="register-ps" element={<RegisterPS/>} />
+            <Route path="student-statistics" element={<StudentStatistics />} />
+            <Route path="register-ps" element={<RegisterPS />} />
+            <Route path="studentstat" element={<Studentstat />} />
+            <Route path="facultystat" element={<Facultystat />} />
           </Routes>
         </div>
       </div>

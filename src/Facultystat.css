@@ -1,4 +1,4 @@
-.student-container {
+.faculty-container {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -8,7 +8,7 @@
     border-radius: 15px;
     margin-top: 50px;
   }
-  .student-form {
+  .faculty-form {
     background-color: #e9e1f9;
     padding: 60px;
     border-radius: 15px;

@@ -3,13 +3,11 @@ import { useNavigate } from 'react-router-dom';
 import './StudentStatistics.css';
 
 const StudentStatistics = () => {
-  const navigate = useNavigate(); // Hook for navigation
+  const navigate = useNavigate();
 
   const handleSubmit = () => {
-    // Perform any logic here if needed (e.g., form validation, API calls)
-    
-    // Redirect to the desired page
-    navigate('/StudentStat');
+    // Redirect to Studentstat page within AdminDashboard
+    navigate('/admin-dashboard/studentstat');
   };
 
   return (
